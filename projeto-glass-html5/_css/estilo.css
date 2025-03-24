@@ -114,4 +114,61 @@ nav#menu li:hover{
         color: white;
         text-decoration: underline;
 }
+/*Formatação da página*/
+section#corpo{
+display: block;
+width: 480px;
+float: left;
+border-right: 1px solid #606060;
+padding-right: 15px;
+}
+aside#lateral{
+display: block;
+width: 400px;
+float: right;
+}
 
+footer#rodape{
+clear: both;
+border-top: 1px solid #606060;
+}
+
+footer#rodape p{
+text-align: center;
+
+}
+
+/*formatação de tabela*/
+
+table#tabelaspecs{
+border: 1px solid #606060;
+border-spacing: 0px;
+margin-left: auto;
+margin-right: auto;
+}
+
+table#tabelaspecs td{
+border: 1px solid #606060;
+padding: 10px;
+}
+
+table#tabelaspecs td.ce{
+color: #ffffff;
+background-color: #606060;
+vertical-align: top;
+font-weight: bold;
+}
+
+table#tabelaspecs td.cd{
+background-color: #cecece;
+font-size: 13pt;
+font-weight: bold;
+}
+
+table#tabelaspecs  caption span{
+display: block;
+float: right;
+color: #000000;
+font-size: 8pt;
+margin-top: 10px;
+}
